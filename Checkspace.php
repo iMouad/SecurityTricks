@@ -12,8 +12,8 @@ function Checkspace ($val){
     $reg= '@^[0-9-A-Za-z_-أ-ي-]+$@'; 
  
     if (preg_match($reg,$val)){ 
-    echo "<b>الاسم صحيح</b>"; 
+    echo "<b>Correct name</b>"; 
     }else{ 
-        echo "<b>! الاسم يحتوي على فراغات</b>"; 
+        echo "<b>Name containes space !</b>"; 
     }
 }
